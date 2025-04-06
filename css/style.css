@@ -1,0 +1,200 @@
+:root {
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Raleway", sans-serif;
+  }
+
+body{
+    font-family: "Roboto", "Raleway", sans-serif;
+    font-weight: 400;
+    background: #fff;       
+}
+/* HEADER */
+
+.logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.logo-header{
+    color: #2e2f42;
+}
+
+a.studio-header, a.portfolio-header, a.contacts-header{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+
+
+    /* line-height: 24px; */ 
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+a.studio-header:focus, a.studio-header:hover, a.portfolio-header:focus, a.portfolio-header:hover, a.contacts-header:focus, a.contacts-header:hover{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+
+    /* line-height: 24px; */ 
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #404bbf;
+}
+.mailto, .tel{
+    
+    font-size: 16px;
+    
+    /* line-height: 24px; */ 
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.mailto:focus,
+.mailto:hover,
+.tel:focus,
+.tel:hover{
+    color: #404bbf;
+}
+/* ПЕРВАЯ СЕКЦИЯ */
+.studio{
+        background-color: #2e2f42;
+        width: 1440px;
+        height: 600px;
+}
+.h-one{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+.button{
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
+    width: 169px;
+    height: 56px;
+}
+.button:focus, .button:hover{
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #404bbf;
+}
+/* ВТОРАЯ СЕКИЯ */
+.portfolio-h-three{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
+}
+.portfolio-h-three-info{
+    font-weight: 400;
+    font-size: 16px;
+
+    /* line-height: 24px; */ 
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/* ТРЕТЬЯ СЕКИЯ */
+.contacts{
+    background: #f4f4fd;    
+}
+.contacts-h-two-team{
+    font-weight: 700;
+    font-size: 36px;
+
+    /* line-height: 40px; */ 
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+.contacts-h-three-team{
+    font-weight: 500;
+    font-size: 20px;
+    /* line-height: 24px; */ 
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+.contacts-info{
+    font-weight: 400;
+    font-size: 16px;
+
+    /* line-height: 24px; */ 
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+/* ЧЕТВЕРТАЯ СЕКИЯ */
+.h-two-port{
+    font-weight: 700;
+    font-size: 36px;
+    
+    /* line-height: 40px; */ 
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+.h-three-port{
+    font-weight: 500;
+    font-size: 20px;
+    
+    /* line-height: 24px; */ 
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.port-info{
+    font-weight: 400;
+    font-size: 16px;
+    
+    /* line-height: 24px; */ 
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;   
+}
+/* ФУТЕР СЕКИЯ */
+.box-footer{
+    background: #2e2f42;
+}
+.logo-footer{
+    font-weight: 700;
+    font-size: 18px;
+    
+    /* line-height: 21px; */ 
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
+}
+.info-footer{
+    font-weight: 400;
+    font-size: 16px;
+    
+    /* line-height: 24px; */ 
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
+
+
+
+
