@@ -4,8 +4,9 @@
   }
 
 body{
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
+    color: #434455;
     background: #fff;       
 }
 /* HEADER */
@@ -14,7 +15,7 @@ body{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -23,7 +24,7 @@ body{
     color: #2e2f42;
 }
 
-a.studio-header, a.portfolio-header, a.contacts-header{
+a.list-header{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -34,7 +35,7 @@ a.studio-header, a.portfolio-header, a.contacts-header{
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-a.studio-header:focus, a.studio-header:hover, a.portfolio-header:focus, a.portfolio-header:hover, a.contacts-header:focus, a.contacts-header:hover{
+a.list-header:hover, a.list-header:focus{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -44,7 +45,10 @@ a.studio-header:focus, a.studio-header:hover, a.portfolio-header:focus, a.portfo
     letter-spacing: 0.02em;
     color: #404bbf;
 }
-.mailto, .tel{
+.box-address{
+    font-style: normal
+}
+.mail-tel{
     
     font-size: 16px;
     
@@ -53,23 +57,19 @@ a.studio-header:focus, a.studio-header:hover, a.portfolio-header:focus, a.portfo
     letter-spacing: 0.02em;
     color: #434455;
 }
-.mailto:focus,
-.mailto:hover,
-.tel:focus,
-.tel:hover{
+.mail-tel:focus,
+.mail-tel:hover{
     color: #404bbf;
 }
 /* ПЕРВАЯ СЕКЦИЯ */
 .studio{
-        background-color: #2e2f42;
-        width: 1440px;
-        height: 600px;
+        background-color: #2e2f42;        
 }
 .h-one{
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -84,12 +84,10 @@ a.studio-header:focus, a.studio-header:hover, a.portfolio-header:focus, a.portfo
     color: #fff;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
-    width: 169px;
-    height: 56px;
+    
 }
 .button:focus, .button:hover{
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: #404bbf;
+        background: #404bbf;
 }
 /* ВТОРАЯ СЕКИЯ */
 .portfolio-h-three{
@@ -113,14 +111,19 @@ a.studio-header:focus, a.studio-header:hover, a.portfolio-header:focus, a.portfo
 .contacts{
     background: #f4f4fd;    
 }
+.list-contacts{
+    background-color: #FFFFFF
+}
+
 .contacts-h-two-team{
     font-weight: 700;
     font-size: 36px;
 
     /* line-height: 40px; */ 
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: #2e2f42;
 }
 .contacts-h-three-team{
@@ -148,10 +151,11 @@ a.studio-header:focus, a.studio-header:hover, a.portfolio-header:focus, a.portfo
     font-size: 36px;
     
     /* line-height: 40px; */ 
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize
 }
 .h-three-port{
     font-weight: 500;
@@ -180,7 +184,7 @@ a.studio-header:focus, a.studio-header:hover, a.portfolio-header:focus, a.portfo
     font-size: 18px;
     
     /* line-height: 21px; */ 
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
